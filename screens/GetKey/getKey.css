@@ -1,0 +1,34 @@
+body{
+    background-image: url(../../img/getKeyWallpaper.jpg);
+    background-size: cover;
+
+    display: flex;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#cards {
+    cursor: pointer;
+    transition: all 1s;
+
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
+#cards:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+#cards:active {
+    color: blue;
+}
+
+
