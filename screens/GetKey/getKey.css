@@ -1,34 +1,67 @@
-body{
-    background-image: url(../../img/getKeyWallpaper.jpg);
-    background-size: cover;
+body {
+  background-image: url(../../img/getKeyWallpaper.jpg);
+  background-size: cover;
 
-    display: flex;
+  display: flex;
 }
-.container{
 
-    display: flex;
-    flex-direction: column;
-    
-    margin-left: 60px;
-    margin-top: 10px;
+.cards {
+  cursor: pointer;
+  transition: all 1s;
+
+  width: 200px;
+  height: 200px;
+
+
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
 }
-#cards {
+
+.cards:hover {
+  color: red;
+
+  transform: rotate(520deg) scale(1.4);
+}
+
+.cards:active {
+  color: blue;
+}
+.cards img {
+  width: 110%;
+  height: 110%;
+}
+#card1{
+margin-left: 100px;
+  
+}
+#card2{
+  margin-left: 701px;
+  margin-top: 230px;
+}
+#card3{
+margin-left: 401px;
+  margin-top: 430px;
+}
+
+#card4 {
+  margin-left: 1px;
+  margin-top: 600px;
+}
+#triangulo{
+  width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 50px solid ;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+
+    margin-left: 1375px;
+    margin-top: 139px;
+
+    transform: rotate(233deg);
+
+    opacity: 0;
     cursor: pointer;
-    transition: all 1s;
-
-    width: 400px;
-    height: 200px;
-    background-color: aquamarine;
-    margin-top: 20px;
 }
-
-#cards:hover {
-    color: red;
-    transform: scale(1.2);
-}
-
-#cards:active {
-    color: blue;
-}
-
-

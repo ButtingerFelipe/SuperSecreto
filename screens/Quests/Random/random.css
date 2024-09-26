@@ -1,0 +1,18 @@
+
+
+body{
+    background-image: url(Remove-bg.ai_1727383734482.png);
+    background-size: cover;
+    background-color: black;
+}
+
+#computer{
+font-family: "Tiny5", sans-serif;
+color: aquamarine;
+font-size: 40px;
+
+margin-left: 550px;
+margin-top: 250px;
+
+transform: rotate(-10deg);
+}
