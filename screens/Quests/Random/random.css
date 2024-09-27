@@ -1,18 +1,92 @@
 
 
 body{
-    background-image: url(Remove-bg.ai_1727383734482.png);
+    background-image: url(../../../img/WhatsApp\ Image\ 2024-09-27\ at\ 13.55.14.jpeg   );
     background-size: cover;
-    background-color: black;
+    
 }
 
 #computer{
 font-family: "Tiny5", sans-serif;
-color: aquamarine;
+color: rgb(255, 255, 255);
 font-size: 40px;
 
-margin-left: 550px;
-margin-top: 250px;
+margin-left: 450px;
+margin-top: 120px;
 
-transform: rotate(-10deg);
+transform: rotate(-12deg);
+}
+.gameArea{
+    
+    position: absolute;
+
+
+        margin-left: 440px;
+        margin-top: 120px;
+    
+        transform: rotate(-12deg);
+
+        height: 400px;
+        width: 600px;
+}
+
+.game{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+        height: 400px;
+        width: 600px;
+}
+input[type=text] {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #E91E63;
+    background: rgba(#E91E63, .2);
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
+    color: #E91E63;
+}
+#input{
+max-width: 250px;
+
+margin-top: 20px;
+font-family: "Tiny5", sans-serif;
+font-size: 40px;
+
+appearance: none;
+background-color: #e91e6200;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid rgb(6, 173, 6);
+    
+  
+    padding: .4em;
+    color: rgb(6, 173, 6);
+}
+
+
+#btnKick{
+max-width: 250px;
+
+    margin-top: 20px;
+    font-family: "Tiny5", sans-serif;
+    font-size: 40px;
+}
+
+#clues p{
+    font-family: "Tiny5", sans-serif;
+    border-style: solid;
+    border-color: rgb(6, 173, 6);
+    padding: 10px;
+
+    height: 20px;
+    width: 100px;
+}
+#clues{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
